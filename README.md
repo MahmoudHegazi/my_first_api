@@ -39,3 +39,20 @@ from flask_mail import Mail, Message
     mail.send(msg)
 
 ```
+
+
+# Handle Phone and SMS message tested and worked 
+```
+pip install nexmo
+import nexmo
+
+client = nexmo.Client(key='apikey', secret='api-secret')
+
+client.send_message({
+    'from': 'Vonage APIs',
+    'to': 'your-number-here',
+    'text': 'Hello from Vonage SMS API Nice API',
+})
+
+```
+https://dashboard.nexmo.com/
