@@ -56,3 +56,7 @@ client.send_message({
 
 ```
 https://dashboard.nexmo.com/
+
+
+# need check messanger (important in freelance)
+https://docs.blesta.com/display/dev/Messengers
